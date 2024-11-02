@@ -1,9 +1,11 @@
 
 git clone para copiar o projecto que esta na nuvéns para maquina 
+
 git status : ver se houve modificação no proj
 git add .:preparar os dados pra enviar no remoto
 git commit -m "fazendo subir o projecto" : documentar as alterações 
 git push : enviar os dados para as nuvens
+
 git pull: verificar se existe alguma novidade no projecto
 
 //teste
