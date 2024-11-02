@@ -5,3 +5,5 @@ git add .:preparar os dados pra enviar no remoto
 git commit -m "fazendo subir o projecto" : documentar as alterações 
 git push : enviar os dados para as nuvens
 git pull: verificar se existe alguma novidade no projecto
+
+//teste
