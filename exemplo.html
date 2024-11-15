@@ -1,0 +1,55 @@
+<!-- header.html -->  
+<header>  
+    <h1>Meu Site</h1>  
+    <nav>  
+        <ul>  
+            <li><a href="#">Início</a></li>  
+            <li><a href="#">Sobre</a></li>  
+            <li><a href="#">Contato</a></li>  
+        </ul>  
+    </nav>  
+</header>
+
+
+<!-- footer.html -->  
+<footer>  
+    <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>  
+</footer>
+
+<!DOCTYPE html>  
+<html lang="pt-BR">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Título da Página</title>  
+    <link rel="stylesheet" href="style.css">  
+</head>  
+<body>  
+
+    <div id="header"></div> <!-- Onde o header será carregado -->  
+
+    <main>  
+        <h1>Conteúdo Principal</h1>  
+        <p>Este é o conteúdo principal da página.</p>  
+    </main>  
+
+    <div id="footer"></div> <!-- Onde o footer será carregado -->  
+
+    <script>  
+        // Função para carregar o conteúdo HTML em um elemento  
+        function loadHTML(elementId, fileName) {  
+            fetch(fileName)  
+                .then(response => response.text())  
+                .then(data => {  
+                    document.getElementById(elementId).innerHTML = data;  
+                });  
+        }  
+
+        // Carrega o header e o footer  
+        loadHTML('header', 'header.html');  
+        loadHTML('footer', 'footer.html');  
+    </script>  
+</body>  
+</html>
+
+
