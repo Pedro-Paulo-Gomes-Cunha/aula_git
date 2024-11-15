@@ -1,0 +1,28 @@
+/* Usei as tags para modificar as propriedades*/
+header {
+  background-color: rgb(93, 82, 82);
+  color: white;
+}
+main {
+  background-color: white;
+}
+footer {
+  background-color: rgb(93, 82, 82);
+  color: white;
+}
+
+/* Usei a classe para modificar as propriedades*/
+.section_are {
+  background-color: blueviolet;
+}
+
+/* Usei o id para modificar as propriedades*/
+#sec1 {
+  color: red;
+}
+#sec2 {
+  color: rgb(125, 225, 157);
+}
+#sec3 {
+  color: blue;
+}
