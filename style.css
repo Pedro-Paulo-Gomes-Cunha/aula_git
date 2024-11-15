@@ -28,4 +28,6 @@ footer {
 }
 h2{
     text-align: center; /*colocando o texto no centro da tela*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image:url("/image/music.jpeg")
 }
