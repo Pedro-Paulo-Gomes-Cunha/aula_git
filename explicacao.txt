@@ -6,3 +6,5 @@ git add .:preparar os dados pra enviar no remoto
 git commit -m "fazendo subir o projecto" : documentar as alterações 
 git push : enviar os dados para as nuvensm
 
+html semantico
+
